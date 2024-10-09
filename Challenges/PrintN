@@ -1,0 +1,13 @@
+def numPrint(num):
+    count = 1  # Initialize counter for counting up
+    while count <= num:
+        print(count)
+        count += 1
+
+    count = num  # Reinitialize counter for counting down
+    while count >= 1:
+        print(count)
+        count -= 1
+
+num = int(input("Enter a number: "))
+numPrint(num)

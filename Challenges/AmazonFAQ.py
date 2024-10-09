@@ -1,5 +1,4 @@
 #n = 45
-
 def func(n):
     if n>90 and n<=100:
         print("A")
@@ -12,4 +11,5 @@ def func(n):
     else:
         print("invalid")
 n = int(input())
-func(n)                        
+func(n)   
+
