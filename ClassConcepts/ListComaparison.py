@@ -4,6 +4,7 @@ l2 = [4,5,6]
 print(l1<l2) 
 print(l1>l2)
 print(l1==l2)
+
 """
 why list comparison?
 String is a list of characters
@@ -20,6 +21,7 @@ ASCII Values:
 Since the ASCII value of '1' is less than the ASCII value of '2', Python considers "1000" to be less than "20".
 """
 print("1000" < "2000")
+
 str1 = "Priyanka"#P=80
 str2 = "priya" #p=112
 
@@ -28,7 +30,7 @@ print(str1 < str2)
 """
 List comprehension
 l = [1,2,3,....100]
-
+for i in range(1,101)
 """
 l = [i for i in range(1,101)]
 print(l)
