@@ -17,5 +17,10 @@ for i in range(1, 11):
 """
 
  
-      
+a = 'hello'
+b = a
+a = 'yello'
+
+print(b)
+print(a)      
      
